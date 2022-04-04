@@ -28,8 +28,8 @@ def getRoutes(request):
         'http://127.0.0.1:8000/api/userapp/userprofile/<int:pk>/message/',
         'http://127.0.0.1:8000/api/userapp/userprofile/<int:pk>/message/<int:pk>',
 
-        'http://127.0.0.1:8000/api/userapp/userprofile/5/follow/', # following a user
-        'http://127.0.0.1:8000/api/userapp/userprofile/5/follow/<int:pk>/', # follow detail page to perform modification like PUT and DELETE methods
+        'http://127.0.0.1:8000/api/userapp/userprofile/<int:pk>/follow/', # following a user
+        'http://127.0.0.1:8000/api/userapp/userprofile/<int:pk>/follow/<int:pk>/', # follow detail page to perform modification like PUT and DELETE methods
 
         'http://127.0.0.1:8000/api/userapp/posts/', # post create page
         'http://127.0.0.1:8000/api/userapp/posts/<int:pk>/', # post detail page put and delete options are allowed for post authors only 
